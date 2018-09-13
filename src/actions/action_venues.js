@@ -1,4 +1,4 @@
-import { SERVER_BASE_URL } from "../config";
+const SERVER_BASE_URL = process.env.REACT_APP_SERVER_BASE_URL;
 
 export const fetchVenues = (lat, lng, filter) => dispatch => {
   console.log('action fetchVenues ran');
@@ -12,6 +12,7 @@ export const fetchVenues = (lat, lng, filter) => dispatch => {
     url = `${SERVER_BASE_URL}/bars?lat=${lat}&lng=${lng}`;
   }
 
+  console.log('url ', url);
   dispatch(fetchVenuesRequest);
 
   // "return" so that multiple AJAX requests in Map.js works.
