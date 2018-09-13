@@ -1,34 +1,25 @@
-const ROOT_URL = process.env.REACT_APP_ROOT_URL;
-const FS_CLIENT_ID = process.env.REACT_APP_FS_CLIENT_ID;
-const FS_CLIENT_SECRET = process.env.REACT_APP_FS_CLIENT_SECRET;
-const FOOD_CAT = process.env.REACT_APP_FOOD_CAT;
-const BAR_CAT = process.env.REACT_APP_BAR_CAT;
-
-// Set locally here.
-const RADIUS_2MI = `radius=${1609.34 * 2}`;
-// const RADIUS_1MI = `radius=${1609.34}`;
-// const RADIUS_05MI = `radius=${804.67}`;
-const LIMIT_50 = 'limit=50';
-
+import { SERVER_BASE_URL } from "../config";
 
 export const fetchVenues = (lat, lng, filter) => dispatch => {
+  console.log('action fetchVenues ran');
 
   // Fetching Venues on app load default to Restaurant (e.g. bites search).
   let url = '';
   if(filter === 'bites') {
-    url = `${ROOT_URL}?${FS_CLIENT_ID}&${FS_CLIENT_SECRET}&v=20180323&ll=${lat},${lng}&${RADIUS_2MI}&${LIMIT_50}&${FOOD_CAT}`;
+    url = `${SERVER_BASE_URL}/bites?lat=${lat}&lng=${lng}`;
   }
   if(filter === 'bars') {
-    url = `${ROOT_URL}?${FS_CLIENT_ID}&${FS_CLIENT_SECRET}&v=20180323&ll=${lat},${lng}&${RADIUS_2MI}&${LIMIT_50}&${BAR_CAT}`;
+    url = `${SERVER_BASE_URL}/bars?lat=${lat}&lng=${lng}`;
   }
 
   dispatch(fetchVenuesRequest);
 
   // "return" so that multiple AJAX requests in Map.js works.
   return fetch(url, {
-    method: "GET"
+    method: "GET",
   })
     .then(response => {
+      console.log('response = ', response);
       if(!response.ok) {
         return Promise.reject(response.statusText)
       }
