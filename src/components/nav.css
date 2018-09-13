@@ -1,0 +1,32 @@
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav_full_logo {
+  height: 40px;
+  margin-left: 10px;
+}
+.nav_links {
+  margin-right: 20px;
+}
+.nav_link_tag {
+  display: flex;
+  align-items: center;
+}
+.nav_link_logo {
+  /*height: 30px;*/
+  height: 24px;
+}
+.nav_link_text {
+  color: rgb(226, 0, 34);
+  /*font-size: 24px;*/
+  font-size: 20px;
+  vertical-align: center;
+  margin-left: 5px;
+}
+.nav_link_text:hover {
+  text-decoration: underline;
+}

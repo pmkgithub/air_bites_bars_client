@@ -1,0 +1,30 @@
+.about_wrapper {
+  width: 820px;
+}
+.about_wrapper section {
+  border: 1px solid black;
+  padding: 20px;
+}
+.about_section_title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about_article {
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.about_article_title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.about_wrapper p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.about_img {
+  width: 100%;
+}

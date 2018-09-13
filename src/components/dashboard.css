@@ -1,0 +1,9 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard_map_venue_list_wrapper {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+}

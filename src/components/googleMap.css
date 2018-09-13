@@ -1,0 +1,115 @@
+.map_wrapper {
+  width: 560px;
+  height: 560px;
+}
+.map_container {
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*bottom: 0;*/
+  /*right: 50%;*/
+  /*z-index: 2;*/
+  width: 560px;
+  height: 560px;
+}
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+/* isGeolocatingSpinner - END */
+.map_is_geolocating_spinner_wrapper {
+  position: relative;
+  top: -360px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  color: blue;
+}
+.map_is_geolocating_spinner_wrapper.visible {
+  visibility: visible;
+}
+.map_is_geolocating_spinner_wrapper.hidden {
+  visibility: hidden;
+}
+.map_is_geolocating_spinner_message {
+  font-size: 20px;
+}
+.map_is_geolocating_spinner {
+  font-size: 30px;
+  margin-top: 5px;
+}
+/* isGeolocatingSpinner - END */
+
+/* crosshairs */
+.map_crosshairs_vert {
+  position: relative;
+  top: -560px;
+  background-color: rgba(226, 226, 226, 0.3);
+  /*background-color: black;*/
+  width: 1px;
+  height: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: grab;
+}
+.map_crosshairs_vert.visible {
+  visibility: visible;
+}
+.map_crosshairs_vert.hidden {
+  visibility: hidden;
+}
+.map_crosshairs_horz {
+  position: relative;
+  top: -840px;
+  background-color: rgba(226, 226, 226, 0.3);
+  /*background-color: black;*/
+  width: 560px;
+  height: 1px;
+  cursor: grab;
+}
+.map_crosshairs_horz.visible {
+  visibility: visible;
+}
+.map_crosshairs_horz.hidden {
+  visibility: hidden;
+}
+
+/* map legend - BEGIN */
+.map_legend_wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -200px;
+  left: 4px;
+  width: 150px;
+  border: 1px solid black;
+  background-color: white;
+  padding: 3px;
+}
+.map_legend_header {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 3px;
+}
+.map_legend_row {
+  display: flex;
+  padding: 2px 0;
+}
+.map_legend_icon {
+  height: 20px;
+  width: 20px;
+}
+.map_legend_icon_desc {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.map_legend_form label {
+  font-size: 14px;
+  margin-left: 5px;
+}
+/* map legend - END */

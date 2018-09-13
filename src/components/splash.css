@@ -1,0 +1,47 @@
+.splash_wrapper {
+  width: 100%
+}
+.splash_bg_image {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* sizes background image */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  /*!*!* blackout effect - begin *!*/
+  /*background-color: rgba(0, 0, 0, 0.1);*/
+  /*background-blend-mode: multiply;*/
+  /*!*!* blackout effect - begin *!*/
+
+  z-index: -1;
+}
+
+/* splash start link - BEGIN */
+.splash_start_wrapper {
+  position: relative;
+  top: 20%;
+  text-align: center;
+  color: rgb(226, 0, 34);
+}
+.splash_start_wrapper_span {
+  display: inline-block;
+}
+.splash_start_wrapper_span:hover {
+  cursor: pointer;
+  font-weight: bold;
+  /*color: red;*/
+  color: #D29834;
+  letter-spacing: 2px;
+}
+.splash_start_text {
+  font-size: 20px;
+}
+/* splash start link - BEGIN */
