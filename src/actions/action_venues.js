@@ -2,7 +2,7 @@ const SERVER_BASE_URL = process.env.REACT_APP_SERVER_BASE_URL;
 
 export const fetchVenues = (lat, lng, filter) => dispatch => {
   console.log('action fetchVenues ran');
-
+  console.log('process.env.REACT_APP_SERVER_BASE_URL', process.env.REACT_APP_SERVER_BASE_URL);
   // Fetching Venues on app load default to Restaurant (e.g. bites search).
   let url = '';
   if(filter === 'bites') {
@@ -13,6 +13,7 @@ export const fetchVenues = (lat, lng, filter) => dispatch => {
   }
 
   console.log('url ', url);
+
   dispatch(fetchVenuesRequest);
 
   // "return" so that multiple AJAX requests in Map.js works.
