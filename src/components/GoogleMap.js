@@ -26,6 +26,11 @@ class GoogleMap extends Component {
 
   }
 
+  // Note: API AJAX calls can occur in any one of these scenarios:
+  // 1) When App initially loads - found in initializeMap() -> geolocate.getCurrentPosition() -> onGeolocateSuccess()
+  // 2) On a Map dragend
+  // 3) User toggles between Bites/Bars radio buttons.
+  // 3) If User clicks "Recenter My Location" button.
   componentDidMount() {
 
     this.initializeMap();

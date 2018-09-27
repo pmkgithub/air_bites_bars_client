@@ -1,4 +1,3 @@
-// DEV - BEGIN
 const ENV = process.env.REACT_APP_ENV;
 const API_ROOT_URL = process.env.REACT_APP_API_ROOT_URL;
 const FS_CLIENT_ID = process.env.REACT_APP_FS_CLIENT_ID;
@@ -21,7 +20,7 @@ export const fetchVenues = (lat, lng, filter) => dispatch => {
 
   // Fetching Venues on app load default to Restaurant (e.g. bites search).
   let url = '';
-  if(filter === 'bites') {
+  if (filter === 'bites') {
     if (ENV === 'DEV') {
       url = `${API_ROOT_URL}?${FS_CLIENT_ID}&${FS_CLIENT_SECRET}&v=20180323&ll=${lat},${lng}&${RADIUS_2MI}&${LIMIT_50}&${FOOD_CAT}`;
     } else {
@@ -29,7 +28,7 @@ export const fetchVenues = (lat, lng, filter) => dispatch => {
     }
   }
 
-  if(filter === 'bars') {
+  if (filter === 'bars') {
     if (ENV === 'DEV') {
       url = `${API_ROOT_URL}?${FS_CLIENT_ID}&${FS_CLIENT_SECRET}&v=20180323&ll=${lat},${lng}&${RADIUS_2MI}&${LIMIT_50}&${BAR_CAT}`;
     } else {
