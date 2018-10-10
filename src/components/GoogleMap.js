@@ -13,6 +13,7 @@ import {
 } from "../actions/action_venues";
 import './googleMap.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 class GoogleMap extends Component {
 
   constructor(props) {
