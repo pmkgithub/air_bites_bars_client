@@ -1,17 +1,17 @@
-.map_wrapper {
-  width: 560px;
-  height: 560px;
-}
-.map_container {
-  /*position: fixed;*/
-  /*top: 0;*/
-  /*left: 0;*/
-  /*bottom: 0;*/
-  /*right: 50%;*/
-  /*z-index: 2;*/
-  width: 560px;
-  height: 560px;
-}
+/*.map_wrapper {*/
+  /*width: 560px;*/
+  /*height: 560px;*/
+/*}*/
+/*.map_container {*/
+  /*!*position: fixed;*!*/
+  /*!*top: 0;*!*/
+  /*!*left: 0;*!*/
+  /*!*bottom: 0;*!*/
+  /*!*right: 50%;*!*/
+  /*!*z-index: 2;*!*/
+  /*width: 560px;*/
+  /*height: 560px;*/
+/*}*/
 #map {
   width: 100%;
   height: 100%;
@@ -113,3 +113,78 @@
   margin-left: 5px;
 }
 /* map legend - END */
+
+/* Extra Small */
+.map_wrapper {
+  width: 300px;
+  height: 300px;
+}
+.map_container {
+  width: 300px;
+  height: 300px;
+}
+.map_legend_wrapper {
+  display: none;
+}
+
+/* Small (phone - landscape) */
+@media screen and ( min-width: 576px ) {
+  .map_wrapper {
+    width: 460px;
+    height: 460px;
+  }
+  .map_container {
+    width: 460px;
+    height: 460px;
+  }
+  .map_legend_wrapper {
+    display: flex;
+  }
+}
+
+/*@media screen and ( min-width: 664px ) {*/
+  /*.map_wrapper {*/
+    /*width: 460px;*/
+    /*height: 460px;*/
+  /*}*/
+  /*.map_container {*/
+    /*width: 460px;*/
+    /*height: 460px;*/
+  /*}*/
+/*}*/
+
+/* Medium (tablet) */
+@media screen and ( min-width: 768px ) {
+  .map_wrapper {
+    width: 560px;
+    height: 560px;
+  }
+  .map_container {
+    width: 560px;
+    height: 560px;
+  }
+}
+
+/* Large (laptop) */
+@media screen and ( min-width: 1024px ) {
+  .map_wrapper {
+    width: 560px;
+    height: 560px;
+  }
+  .map_container {
+    width: 560px;
+    height: 560px;
+  }
+}
+
+/* Extra Large (desktop) */
+@media screen and ( min-width: 1200px ) {
+  .map_wrapper {
+    width: 560px;
+    height: 560px;
+  }
+  .map_container {
+    width: 560px;
+    height: 560px;
+  }
+}

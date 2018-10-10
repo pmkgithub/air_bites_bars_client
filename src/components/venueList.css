@@ -1,10 +1,10 @@
-.venues_list_wrapper {
-  width: 400px;
-  height: 562px;
-  padding: 10px;
-  border: solid black 2px;
-  margin-left: 20px;
-}
+/*.venues_list_wrapper {*/
+  /*width: 400px;*/
+  /*height: 562px;*/
+  /*padding: 10px;*/
+  /*border: solid black 2px;*/
+  /*margin-left: 20px;*/
+/*}*/
 
 /* venues list header/form - BEGIN */
 .venues_list_header_filters_wrapper {
@@ -48,13 +48,13 @@
 /* venues list header/form - END */
 
 /* venues list - BEGIN */
-.venues_list {
-  height: 420px;
-  overflow-y: auto;
-  list-style-type: none;
-  padding: 10px;
-  border: solid 2px black;
-}
+/*.venues_list {*/
+  /*height: 420px;*/
+  /*overflow-y: auto;*/
+  /*list-style-type: none;*/
+  /*padding: 10px;*/
+  /*border: solid 2px black;*/
+/*}*/
 
 .venue_wrapper {
   padding: 10px;
@@ -87,12 +87,6 @@
 .venue_zip {
 
 }
-/*.venue_cuisine_wrapper {*/
-
-/*}*/
-/*.venue_cuisine_header {*/
-
-/*}*/
 .venue_cuisine {
 
 }
@@ -105,3 +99,82 @@
   margin-top: 20px;
 }
 /* No Venues message - END */
+
+
+/* Extra Small */
+
+/* Small (phone - landscape) */
+@media screen and ( min-width: 576px ) {
+  .venues_list_wrapper {
+    width: 100%;
+    height: 562px;
+    padding: 10px;
+    border: solid black 2px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .venues_list {
+    height: 420px;
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 10px;
+    border: solid 2px black;
+  }
+}
+
+/* Medium (tablet) */
+@media screen and ( min-width: 768px ) {
+  .venues_list_wrapper {
+    width: 100%;
+    height: 562px;
+    padding: 10px;
+    border: solid black 2px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .venues_list {
+    height: 420px;
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 10px;
+    border: solid 2px black;
+  }
+}
+
+/* Large (laptop) */
+@media screen and ( min-width: 1024px ) {
+  .venues_list_wrapper {
+    width: 100%;
+    height: 562px;
+    padding: 10px;
+    border: solid black 2px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .venues_list {
+    height: 420px;
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 10px;
+    border: solid 2px black;
+  }
+}
+
+/* Extra Large (desktop) */
+@media screen and ( min-width: 1200px ) {
+  .venues_list_wrapper {
+    width: 400px;
+    height: 562px;
+    padding: 10px;
+    border: solid black 2px;
+    margin-left: 20px;
+    margin-top: 0;
+  }
+  .venues_list {
+    height: 420px;
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 10px;
+    border: solid 2px black;
+  }
+}

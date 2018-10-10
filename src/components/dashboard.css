@@ -2,8 +2,50 @@
   display: flex;
   flex-direction: column;
 }
+/*.dashboard_map_venue_list_wrapper {*/
+  /*display: flex;*/
+  /*padding: 10px;*/
+  /*border: 1px solid black;*/
+/*}*/
+/* Extra Small */
 .dashboard_map_venue_list_wrapper {
   display: flex;
+  flex-direction: column;
   padding: 10px;
   border: 1px solid black;
+}
+
+/* Small (phone - landscape) */
+@media screen and ( min-width: 576px ) {
+  /*.dashboard_map_venue_list_wrapper {*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*padding: 10px;*/
+    /*border: 1px solid black;*/
+  /*}*/
+}
+
+/* Medium (tablet) */
+@media screen and ( min-width: 768px ) {
+
+}
+
+/* Large (laptop) */
+@media screen and ( min-width: 1024px ) {
+  /*.dashboard_map_venue_list_wrapper {*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*padding: 10px;*/
+    /*border: 1px solid black;*/
+  /*}*/
+}
+
+/* Extra Large (desktop) */
+@media screen and ( min-width: 1200px ) {
+  .dashboard_map_venue_list_wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid black;
+  }
 }

@@ -10,7 +10,6 @@ import App from './components/App';
 import Splash from './components/Splash';
 import Dashboard from './components/Dashboard';
 import About from './components/About';
-import './index.css';
 
 const store = createStore(
   reducers,
