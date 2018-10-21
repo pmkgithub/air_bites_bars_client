@@ -19,6 +19,7 @@ const Splash = (props) => {
           <Link className="splash_start_link_tag" to="/dashboard" style={{ textDecoration: 'none' }}>
             <img className="splash_start_logo" src={logo_w_text} alt="Air Bites and Bars logo"/>
             <div>start searching</div>
+            <div className="splash_demo_note">Please note, it may take a few moments for Heroku Server to wake up...</div>
           </Link>
         </span>
       </div>
