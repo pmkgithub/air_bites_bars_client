@@ -18,8 +18,8 @@ const Splash = (props) => {
         <span className="splash_start_wrapper_span">
           <Link className="splash_start_link_tag" to="/dashboard" style={{ textDecoration: 'none' }}>
             <img className="splash_start_logo" src={logo_w_text} alt="Air Bites and Bars logo"/>
+            <div>start searching</div>
           </Link>
-          <div className="splash_start_text">start searching</div>
         </span>
       </div>
     </div>

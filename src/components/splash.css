@@ -33,19 +33,19 @@
   position: relative;
   top: 20%;
   text-align: center;
-  color: rgb(226, 0, 34);
 }
 .splash_start_wrapper_span {
   display: inline-block;
 }
-.splash_start_wrapper_span:hover {
+.splash_start_wrapper_span a {
+  font-size: 20px;
+  color: rgb(226, 0, 34);
+}
+.splash_start_wrapper_span a:hover {
   cursor: pointer;
   font-weight: bold;
   /*color: red;*/
   color: #D29834;
   letter-spacing: 2px;
-}
-.splash_start_text {
-  font-size: 20px;
 }
 /* splash start link - BEGIN */
