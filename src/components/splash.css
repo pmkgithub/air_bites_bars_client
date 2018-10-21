@@ -51,9 +51,6 @@
 .splash_demo_note {
   visibility: hidden;
 }
-/*.splash_demo_note:hover{*/
-  /*display: block;*/
-/*}*/
 a:hover > .splash_demo_note {
   visibility: visible;
 }
