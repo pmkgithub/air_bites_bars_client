@@ -1,4 +1,4 @@
-[![air bites and bars logo](https://github.com/pmkgithub/air_bites_bars_client/blob/master/src/images/abnb_logo_with_text_red_300.png.png)](https://airbitesnbars.herokuapp.com/)
+[![air bites and bars logo](https://github.com/pmkgithub/air_bites_bars_client/blob/master/src/images/abnb_logo_with_text_red_300.png)](https://airbitesnbars.herokuapp.com/)
 
 The _FASTER_ way to find restaurants and bars when on the go.
 
