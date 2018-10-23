@@ -32,7 +32,7 @@ A Node.js proxy Application Server is utilized to obfuscate API keys.
 * Express.js
 * Express cors
 * dotenv
-
+***
 # Usage
 
 ## Searching Venues
