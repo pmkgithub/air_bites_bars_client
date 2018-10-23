@@ -2,17 +2,17 @@
 
 The _FASTER_ way to find restaurants and bars when on the go.
 
-## Overview - Why AirBitesNBars?
-Firstly, the inspiration behind AirBitesNBars was to emulate AirBnB’s UI Functionality:
+## Overview - Why airbitesnbars?
+Firstly, the inspiration behind airbitesnbars was to emulate Airbnb’s UI Functionality:
 * Panning map instantly displays new Venue Map Markers.
 * Click a Venue Map Marker, its InfoWindow opens and the corresponding Venue Card scrolls into view.
 * Conversely, click a Venue Card, and the corresponding Marker's InfoWindow opens.
 
 This project is also an exploration into implementing the native Google Maps JavaScript API without relying on a third-party React library such as react-google-maps.
 
-Most importantly, AirBitesNBars was created to address shortcomings of using Google Maps or Yelp for discovering restaurants and bars while traveling or in a new part of town.
+Most importantly, airbitesnbars was created to address shortcomings of using Google Maps or Yelp for discovering restaurants and bars while traveling or in a new part of town.
 
-Of course, the app’s name is a tongue-in-cheek nod to the airbnb name itself.
+Of course, the app’s name is a tongue-in-cheek nod to the Airbnb name itself.
 
 ## Technology
 ### API's
