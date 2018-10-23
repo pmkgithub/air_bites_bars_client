@@ -69,7 +69,7 @@ const About = (props) => {
       <hr/>
 
       <section className="about_new_level_search">
-        <div className="about_section_title">Take It to a Next Level:</div>
+        <div className="about_section_title">Take it to the Next Level:</div>
         <article className="about_article">
           <div className="about_article_title">Starting an Advanced Search:</div>
           <hr/>
