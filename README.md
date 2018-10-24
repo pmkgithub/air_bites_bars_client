@@ -72,10 +72,10 @@ Here, the User has panned along his route to see upcoming Venues.  Hmmm, where s
 ### Pan without Fetching
 Checking "Pan w/o Fetching" is a convenient feature which allows the User to Pan (and Zoom In/Out) while preserving the currently displayed Venues.
 
-Suppose you want to explore the currently loaded set of Venues in greater detail - in this scenario, you want to explore Marker 42.
+Suppose you want to explore the currently loaded set of Venues in greater detail - in this scenario, you want to explore Marker 43.
 ![pan without fetching is a convenience feature](https://github.com/pmkgithub/air_bites_bars_client/blob/master/src/images/about/map_ui_05_01.png)
 
-Here, we panned, zoomed and clicked Marker 42.
+Here, we panned, zoomed and clicked Marker 43.
 ![click pan with fetching to prevent new venue markers from loading when moving the map](https://github.com/pmkgithub/air_bites_bars_client/blob/master/src/images/about/map_ui_05_02.png)
 
 ## Take it to the Next Level
