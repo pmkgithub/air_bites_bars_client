@@ -49,8 +49,8 @@
 .map_crosshairs_vert {
   position: relative;
   top: -560px;
-  background-color: rgba(226, 226, 226, 0.3);
-  /*background-color: black;*/
+  /*background-color: rgba(226, 226, 226, 0.3);*/
+  background-color: black;
   width: 1px;
   height: 560px;
   margin-left: auto;
@@ -66,8 +66,8 @@
 .map_crosshairs_horz {
   position: relative;
   top: -840px;
-  background-color: rgba(226, 226, 226, 0.3);
-  /*background-color: black;*/
+  /*background-color: rgba(226, 226, 226, 0.3);*/
+  background-color: black;
   width: 560px;
   height: 1px;
   cursor: grab;
