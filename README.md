@@ -82,7 +82,7 @@ Here, we panned, zoomed and clicked Marker 43.
 ### Starting an Advanced Search
 This is where things really get FUN!
 
-Click "Pan w/o Zoom" and "Toggle Crosshairs" check-boxes.
+Click "Pan w/o Fetching" and "Toggle Crosshairs" check-boxes.
 ![start an advanced search by clicking pan without fetching](https://github.com/pmkgithub/air_bites_bars_client/blob/master/src/images/about/map_ui_06.png)
 
 ### Pan to Desired Location
