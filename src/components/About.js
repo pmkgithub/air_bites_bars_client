@@ -21,23 +21,23 @@ const About = (props) => {
       <Nav page={'about'} linkTo={'/dashboard'} text={'Dashboard'}/>
 
       <section className="about_search">
-        <div className="about_section_title">Searching Venues:</div>
+        <div className="about_section_title">Searching Venues</div>
         <article className="about_article">
-          <div className="about_article_title">App Load:</div>
+          <div className="about_article_title">App Load</div>
           <hr/>
           <p>For App to work, User must "Allow" the Browser to "Know your location".&nbsp;&nbsp;This permission is found in the Browser's Settings Panel.</p>
           <p>When App Loads, Bites (Restaurant) Venues, within a 2 mile radius, display.</p>
           <img className="about_img" src={img01} alt="on app load restaurants venues display"/>
         </article>
         <article className="about_article">
-          <div className="about_article_title">Click Marker / Venue Card:</div>
+          <div className="about_article_title">Click Marker / Venue Card</div>
           <hr/>
           <p>Click a Marker; its InfoWindow opens and the corresponding Venue card scrolls into view.  Whoa, that is cool!</p>
           <p>Conversely, when a Venue card is clicked, the corresponding Marker's InfoWindow opens.</p>
           <img className="about_img" src={img02} alt="click map marker or click venue card to show details"/>
         </article>
         <article className="about_article">
-          <div className="about_article_title">Bites / Bars Radio Buttons:</div>
+          <div className="about_article_title">Bites / Bars Radio Buttons</div>
           <hr/>
           <p>Clicking either radio button will toggle displayed Venues from Bites to Bars on Current Location, and vice-versa.</p>
           <p>Here, only Bites venues show.</p>
@@ -46,7 +46,7 @@ const About = (props) => {
           <img className="about_img" src={img03_02} alt="click bars radio button to display bar venues"/>
         </article>
         <article className="about_article">
-          <div className="about_article_title">Pan With Fetching:</div>
+          <div className="about_article_title">Pan With Fetching</div>
           <hr/>
           <p>"Pan with Fetching" is the default behavior.  When User pans the map, the Venues update automatically.</p>
           <p>This feature is especially useful when on a road trip.&nbsp;&nbsp;Pan the road you are traveling to see upcoming Bites and Bars along your route.</p>
@@ -69,22 +69,22 @@ const About = (props) => {
       <hr/>
 
       <section className="about_new_level_search">
-        <div className="about_section_title">Take it to the Next Level:</div>
+        <div className="about_section_title">Take it to the Next Level</div>
         <article className="about_article">
-          <div className="about_article_title">Starting an Advanced Search:</div>
+          <div className="about_article_title">Starting an Advanced Search</div>
           <hr/>
           <p>This is where things really get FUN!</p>
           <p>Click "Pan w/o Zoom" and "Toggle Crosshairs" check-boxes.</p>
           <img className="about_img" src={img06} alt="start an advanced search by clicking pan without fetching"/>
         </article>
         <article className="about_article">
-          <div className="about_article_title">Pan to Desired Location:</div>
+          <div className="about_article_title">Pan to Desired Location</div>
           <hr/>
           <p>You can pan any where on the map.  Try exploring a city you plan to visit, or exploring a city in a foreign country.</p>
           <img className="about_img" src={img07} alt="pan to desired location on map"/>
         </article>
         <article className="about_article">
-          <div className="about_article_title">Load New Venues:</div>
+          <div className="about_article_title">Load New Venues</div>
           <hr/>
           <p>Un-check "Pan w/o Fetching".  Grab Map and give it a nudge.&nbsp;&nbsp;New Venues display in the new Location.</p>
           <img className="about_img" src={img08} alt="uncheck pan without fetching to display venues in the new location"/>
@@ -94,9 +94,9 @@ const About = (props) => {
       <hr/>
 
       <section className="about_reset">
-        <div className="about_section_title">Resetting View:</div>
+        <div className="about_section_title">Resetting View</div>
         <article className="about_article">
-          <div className="about_article_title">Go back to Current Location:</div>
+          <div className="about_article_title">Go back to Current Location</div>
           <hr/>
           <p>Click "Recenter to My Location" button to return map to your current location view.</p>
           <img className="about_img" src={img09} alt="click recenter to my location button to return map to your current location view"/>
